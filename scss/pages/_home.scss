@@ -1,27 +1,29 @@
-//* HOMEPAGE
-
+//*****************************************************
+//*   HOME PAGE
+//*****************************************************
 
 .home-bgImg-container{
-   @include bgImage(100vh , '../img/model-2.jpg')
+    @include bgImage(100vh , $main-bgImage-path)
 }
 
 .home{
-    height: 80vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
+//    border: 2px solid red; 
+   height: 80vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   text-align: center;
 
-    &__name{
-        font-size: 5rem;
-        padding: 1rem;
-        margin-bottom: 1rem;
-        border-bottom: 2px solid white;
+   &__name{
+    font-size: 5rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #fff;
 
-        &--last{
-            color: red;
-            font-weight: 700;
-
-        }
+    &--last{
+        color: red;
+        font-weight: 700;
     }
+
+   }
 }

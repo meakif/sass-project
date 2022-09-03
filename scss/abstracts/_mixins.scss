@@ -5,9 +5,9 @@
 @mixin transition ($sec) {
     transition: all $sec;
     
-}
+};
 
-@mixin bgImage($height, $url){
+@mixin bgImage($height, $url) {
     height: $height;
     width: 100%;
     background: linear-gradient(
@@ -17,5 +17,5 @@
     ),
     url($url);
     background-position: center center;
-    background-size: cover;
+    background-size: cover;   
 }
